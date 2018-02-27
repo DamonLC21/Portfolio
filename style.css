@@ -1,0 +1,243 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#000;
+	font-family:Palatino;
+	color:#fff;
+	font-variant:normal;
+	font-size:24px; 
+}
+
+body.Creature{
+	background-color:#000;
+	font-family:Palatino;
+	color:#fff;
+	font-variant:normal;
+	font-size:17px;
+}
+
+body.Dracula{
+	background-color:#000;
+	font-family:Palatino;
+	color:#fff;
+	font-variant:normal;
+	font-size:17px;
+}
+
+body.Frankenstein{
+	background-color:#000;
+	font-family:Palatino;
+	color:#fff;
+	font-variant:normal;
+	font-size:17px;
+}
+
+body.WolfMan{
+	background-color:#000;
+	font-family:Palatino;
+	color:#fff;
+	font-variant:normal;
+	font-size:17px;
+}
+
+
+header{
+	font-family:Impact;
+	color:#fff;
+	text-align:center;
+	font-variant:small-caps;
+	
+	
+}
+
+header.Creature{
+	font-family:Impact;
+	color:#fff;
+	text-align:center;
+	font-variant:small-caps;
+	font-size:22px;
+	background-image:url(Images/creature_from_the_black_lagoon_franchise_retrospective.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+header.Frankenstein{
+	font-family:Impact;
+	color:#fff;
+	text-align:center;
+	font-variant:small-caps;
+	font-size:22px;
+	background-image:url(Images/frankenstein11.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+header.WolfMan{
+	font-family:Impact;
+	color:#fff;
+	text-align:center;
+	font-variant:small-caps;
+	font-size:22px;
+	background-image:url(Images/wolfman.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	line-height:7;
+}
+
+nav.Frankenstein{
+	width:960px;
+	font-family:Cambria;
+	background-color:#000;
+	line-height:1;
+}
+
+nav.WolfMan{
+	width:960px;
+	font-family:Cambria;
+	background-color:#000;
+}
+
+nav.Creature{
+	width:960px;
+	font-family:Cambria;
+	background-color:#000;
+}
+
+h2.Creature{
+	color:#A5DBB3
+}
+
+header.Dracula{
+	font-family:Impact;
+	color:#fff;
+	text-align:center;
+	font-variant:small-caps;
+	font-size:22px;
+	background-image:url(Images/dracccc.jpg);
+}
+
+
+h1{
+	font-size:160px;
+	line-height:.9;
+	
+}
+
+h2{
+	font-size:86px;
+	color:#77A70B;
+	line-height:.3;
+}
+
+
+
+div.wrapper{
+	width:960px;
+	padding:0 20px;
+	margin:0 auto;
+	background-color:#000;
+}
+
+div.Creature{
+	width:960px;
+	padding:0 20px;
+	margin:0 auto;
+	background-color:#000;
+}
+
+div.Dracula{
+	width:960px;
+	padding:0 20px;
+	margin:0 auto;
+	background-color:#000;
+}
+
+div.Frankenstein{
+	width:960px;
+	padding:0 20px;
+	margin:0 auto;
+	background-color:#000;
+}
+
+div.WolfMan{
+	width:960px;
+	padding:0 20px;
+	margin:0 auto;
+	background-color:#000;
+}
+
+
+footer{
+	text-align:center;
+	background-color:#DFC309;
+	font-size:18px;
+	color:#000;
+}
+
+nav{
+	background-color:#77A70B;
+	font-family:Cambria;
+	width:951px;
+	
+}
+
+nav.Dracula{
+	width:960px;
+	font-family:Cambria;
+	background-color:#8B181A;
+}
+
+nav a:link, nav a:visited{
+	margin-right:25px;
+	width:960px;
+	color:#DFC309;
+	text-decoration:none;
+	margin-left:55px;
+}
+
+nav a:hover, nav a:active{
+	color:#DD4749;
+	font-family:Baskerville;
+}
+
+section div{
+	display:inline-block;
+	margin-right:20px;
+	text-align:left;
+	
+}
+
+
+
+section.double div{
+	width:460px;
+}
+section.triple div{
+	width:305px;
+}
+
+section.single p{
+	width:450px;
+	margin:0 auto;
+	line-height:1.7;
+	
+}
+
+section.wolf{
+	width:550px;
+	margin:0 auto;
+}
+
+
+section.double-uneven div.wide{width:633px}
+section.double-uneven div.narrow{width:306px}
+
+section div:last-child{
+	margin-right:0;
+}
+
+section.Frak{
+	margin:0 auto;
+	width:900px;
+}
